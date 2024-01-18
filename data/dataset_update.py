@@ -1,18 +1,18 @@
 import pandas as pd
 
-df = pd.read_csv("oh-dev-stemmed.csv")
+df = pd.read_csv("IMDB.csv")
 df.head()
 
 def sentiment_score_to_name(score: float):
     if score == 1:
-        return "World"
+        return ""
     elif score == 2:
-        return "Sports"
+        return ""
     elif score == 3:
-        return "Bussiness"
+        return ""
     elif score == 4:
-        return "Technology"
-    return "positive"
+        return ""
+    return ""
 # def sentiment_score_to_name(score: float):
 #     if score > 0:
 #         return "Positive"
